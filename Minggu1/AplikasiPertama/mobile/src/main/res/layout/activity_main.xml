@@ -28,15 +28,12 @@
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="75dp" />
-    <Button
-        android:id="@+id/showHideBtn"
-        android:layout_width="140dp"
-        android:layout_height="70px"
-        android:text="Show Password"
-        android:textSize="20px"
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="0dp"
-        />
+        android:text="Show/hide Password" />
 
     <Button
         android:id="@+id/loginbtn"
@@ -47,6 +44,16 @@
         android:text="Login"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="145dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="
+        Username : a
+        Password : a"
+        />
 
 
 </LinearLayout>
