@@ -14,13 +14,13 @@
         android:layout_marginLeft="140dp"
         android:layout_marginRight="140dp"
         >
-        <ImageView
+        <pl.droidsonroids.gif.GifImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:id="@+id/image_login"
             android:layout_marginTop="20dp"
             android:layout_centerHorizontal="true"
-            android:src="@mipmap/assets_image"
+            android:src="@drawable/flat"
             />
         <TextView
             android:layout_width="wrap_content"
