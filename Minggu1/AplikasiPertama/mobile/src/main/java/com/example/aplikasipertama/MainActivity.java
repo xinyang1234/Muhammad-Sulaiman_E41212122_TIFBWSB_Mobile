@@ -15,7 +15,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     EditText Editusernametxt,Editpasswordtxt;
     CheckBox mCheckBox;
-    Button btnLogin;
+    Button btnLogin,btnRegister;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,8 +23,16 @@ public class MainActivity extends AppCompatActivity {
         Editusernametxt = findViewById(R.id.usernametxt);
         Editpasswordtxt = findViewById(R.id.passwordtxt);
         btnLogin =findViewById(R.id.loginbtn);
+        btnRegister =findViewById(R.id.tidakPunyaAkun);
         mCheckBox = findViewById(R.id.checkBox2);
 
+        btnRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent x = new Intent(MainActivity.this, relative.class);
+                startActivity(x);
+            }
+        });
         mCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
@@ -45,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                         switch (datapassword){
                             case "a" :
                                 Toast.makeText(MainActivity.this, "Berhasil Masuk", Toast.LENGTH_SHORT).show();
-                                Intent x = new Intent(MainActivity.this, relative.class);
+                                Intent x = new Intent(MainActivity.this, Location.class);
                                 startActivity(x);
                                 break;
                             default:
