@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_kuliner">#497A82</color>
+    <color name="teal_700">#728329</color>
+    <color name="black">#000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_wisata">#3C83BB</color>
+    <color name="GreenTosca_belanja">#1097A3</color>
+    <color name="yellow_kerajinan">#DFD31C</color>
+    <color name="orange_hotel">#FF9239</color>
+    <color name="abu_TempatIbadah">#A19D9F</color>
+    <color name="green_taman">#107941</color>
+    <color name="ungu_Transportasi">#86678B</color>
+
+</resources>

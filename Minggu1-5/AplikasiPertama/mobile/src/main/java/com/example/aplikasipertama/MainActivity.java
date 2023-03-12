@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                         switch (datapassword){
                             case "a" :
                                 Toast.makeText(MainActivity.this, "Berhasil Masuk", Toast.LENGTH_SHORT).show();
-                                Intent x = new Intent(MainActivity.this, Location.class);
+                                Intent x = new Intent(MainActivity.this, Dashboard.class);
                                 startActivity(x);
                                 break;
                             default:
