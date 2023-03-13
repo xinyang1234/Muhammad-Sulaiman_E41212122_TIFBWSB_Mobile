@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Aplikasi Java Native</string>
+    <string name="app_name" translatable="false">Aplikasi Java Native</string>
+    <string name="Login" translatable="false"><b>Login</b></string>
 </resources>

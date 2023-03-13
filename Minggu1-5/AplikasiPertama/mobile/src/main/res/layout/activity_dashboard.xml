@@ -14,7 +14,7 @@
         android:background="@drawable/circle"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="20dp"
-        android:id="@+id/btnkuliner"
+        android:id="@+id/btnLinearLayout"
         />
 
     <Button
@@ -23,7 +23,7 @@
         android:background="@drawable/circle"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="200dp"
-        android:id="@+id/Button01.1"
+        android:id="@+id/btnRelativeLayout"
         />
 
     <Button
@@ -32,7 +32,7 @@
         android:background="@drawable/circle"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="400dp"
-        android:id="@+id/Button01.2"
+        android:id="@+id/btnConstraintLayout"
         />
 
 
@@ -43,7 +43,7 @@
         android:background="@drawable/circle"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:id="@+id/Button2"
+        android:id="@+id/btnTabelLayout"
         />
 
     <Button
@@ -52,7 +52,7 @@
         android:background="@drawable/circle"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="200dp"
-        android:id="@+id/Button2.1"
+        android:id="@+id/btnMaterialDesign"
         />
 
     <Button
@@ -61,7 +61,7 @@
         android:background="@drawable/circle"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="400dp"
-        android:id="@+id/Button2.2"
+        android:id="@+id/btnLocation"
         />
 
     <Button
@@ -70,7 +70,7 @@
         android:background="@drawable/circle"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="280dp"
-        android:id="@+id/Button3"
+        android:id="@+id/btnScrollView"
         />
 
     <Button
@@ -79,46 +79,37 @@
         android:background="@drawable/circle"
         android:layout_marginTop="200dp"
         android:layout_marginLeft="280dp"
-        android:id="@+id/Button3.1"
-        />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/circle"
-        android:layout_marginTop="400dp"
-        android:layout_marginLeft="280dp"
-        android:id="@+id/Button3.2"
+        android:id="@+id/btnScrollViewHorizontal"
         />
 
 <!--    Baris1-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Kuliner"
+        android:text="Linear Layout"
         android:textSize="32px"
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="35dp"
+        android:layout_marginLeft="10dp"
         android:textStyle="bold"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Hotel"
+        android:text="Relative Layout"
         android:textSize="32px"
         android:layout_marginTop="300dp"
-        android:layout_marginLeft="35dp"
+        android:layout_marginLeft="10dp"
         android:textStyle="bold"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Transportasi"
+        android:text="Constraint Layout"
         android:textSize="32px"
         android:layout_marginTop="500dp"
-        android:layout_marginLeft="15dp"
+        android:layout_marginLeft="5dp"
         android:textStyle="bold"
         />
 
@@ -126,30 +117,30 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Wisata"
+        android:text="Tabel Layout"
         android:textSize="32px"
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="160dp"
+        android:layout_marginLeft="142dp"
         android:textStyle="bold"
         />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="SPBU"
+        android:text="Material Design"
         android:textSize="32px"
         android:layout_marginTop="300dp"
-        android:layout_marginLeft="165dp"
+        android:layout_marginLeft="140dp"
         android:textStyle="bold"
     />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Taman"
+        android:text="Location"
         android:textSize="32px"
         android:layout_marginTop="500dp"
-        android:layout_marginLeft="165dp"
+        android:layout_marginLeft="157dp"
         android:textStyle="bold"
     />
 
@@ -157,7 +148,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Belanja"
+        android:text="Scroll View"
         android:textSize="32px"
         android:layout_marginTop="120dp"
         android:layout_marginLeft="290dp"
@@ -167,20 +158,10 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Kerajinan"
+        android:text="Scroll View Horizontal"
         android:textSize="32px"
         android:layout_marginTop="300dp"
         android:layout_marginLeft="285dp"
-        android:textStyle="bold"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Tempat Ibadah"
-        android:textSize="32px"
-        android:layout_marginTop="500dp"
-        android:layout_marginLeft="260dp"
         android:textStyle="bold"
         />
 

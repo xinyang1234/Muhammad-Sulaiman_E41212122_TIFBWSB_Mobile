@@ -15,5 +15,8 @@
     <color name="abu_TempatIbadah">#A19D9F</color>
     <color name="green_taman">#107941</color>
     <color name="ungu_Transportasi">#86678B</color>
+    <color name="colorPrimary">#F50057</color>
+    <color name="colorPrimaryDark">#C51162</color>
+    <color name="colorAccent">#FF80AB</color>
 
 </resources>
